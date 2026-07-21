@@ -1,28 +1,6 @@
 # Cyber-security-Virtual-Intership-
 Cyber security Virtual Intership of https://www.programiz.com/java-programming/online-compiler/
-import java.util.Scanner;
 
-public class PasswordStrengthAnalyzer {
-
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("==========================================");
-        System.out.println("      PASSWORD STRENGTH ANALYZER");
-        System.out.println("==========================================");
-
-        System.out.print("Enter Password: ");
-        String password = sc.nextLine();
-
-        int score = 0;
-
-        boolean upper = false;
-        boolean lower = false;
-        boolean digit = false;
-        boolean special = false;
-
-        int length = password.length();
 
         for (int i = 0; i < length; i++) {
 
