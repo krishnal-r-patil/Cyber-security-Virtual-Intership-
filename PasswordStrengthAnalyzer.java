@@ -10,7 +10,7 @@ public class PasswordStrengthAnalyzer {
         System.out.println("   PASSWORDS STRENGTH ANALYZER");
         System.out.println("===========================================");
 
-        System.out.print("Enter Th Password: ");
+        System.out.print("Enter The Password: ");
         String password = sc.nextLine();
 
         int score = 0;
