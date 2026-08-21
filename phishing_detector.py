@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 emails=[
 ("Congratulations!... You've won a free iPhone. Click http://fake.com to claim.","phishing"),
 ("Your bank account is suspended. Verify immediately.","phishing"),
-("Meeting at 3 PM tomorrow in the conference room.","safe"),
+("Meeting at 3 PM tomorrow in the conference Room.","safe"),
 ("Your Amazon order has been shipped.","safe"),
 ("Reset your password using this secure link.","safe"),
 ("Urgent! Login now to avoid account closure.","phishing")
