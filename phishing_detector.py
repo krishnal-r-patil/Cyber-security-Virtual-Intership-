@@ -4,7 +4,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 emails=[
-("Congratulations!.. You've won a free iPhone. Click http://fake.com to claim.","phishing"),
+("Congratulations!... You've won a free iPhone. Click http://fake.com to claim.","phishing"),
 ("Your bank account is suspended. Verify immediately.","phishing"),
 ("Meeting at 3 PM tomorrow in the conference room.","safe"),
 ("Your Amazon order has been shipped.","safe"),
