@@ -8,7 +8,7 @@ public class PasswordStrengthAnalyzer {
 
         System.out.println("============================================");
         System.out.println("   PASSWORDS STRENGTH ANALYZER");
-        System.out.println("==========================================");
+        System.out.println("===========================================");
 
         System.out.print("Enter The Password: ");
         String password = sc.nextLine();
