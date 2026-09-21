@@ -6,7 +6,7 @@ public class PasswordStrengthAnalyzer {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("=========================================");
+        System.out.println("==========================================");
         System.out.println("   PASSWORDS STRENGTH ANALYZER");
         System.out.println("========================================");
 
